@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K0Vmq+u7YkJZ9Gb7OFr/t+x/4e/8crYeAd+J+Dxur/dli9g3U0Y3Wh+TE8HaOxRspimVJIYNGi4W3WktEoYtcQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\Gerente.Dominio\\Gerente.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\60003520\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
