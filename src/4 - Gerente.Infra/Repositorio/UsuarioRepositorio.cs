@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Gerente.Dominio.Entidades;
 using Gerente.Infra.Contexto;
 using Gerente.Infra.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace Gerente.Infra.Repositorio
 {
@@ -14,19 +16,46 @@ namespace Gerente.Infra.Repositorio
             _contexto = contexto;
         }
 
-        public Task<Usuario> GetEmail(string email)
+        public async Task<Usuario> GetEmail(string email)
         {
-            throw new System.NotImplementedException();
+            var user = await _contexto.Usuarios
+                                   .Where
+                                   (
+                                        x =>
+                                            x.Email.ToLower() == email.ToLower()
+                                    )
+                                    .AsNoTracking()
+                                    .FirstOrDefaultAsync();
+
+            return user;
         }
 
-        public Task<List<Usuario>> GetListEmail(string email)
+        public async Task<List<Usuario>> GetListEmail(string email)
         {
-            throw new System.NotImplementedException();
+            var allUsers = await _contexto.Usuarios
+                                   .Where
+                                   (
+                                        x =>
+                                            x.Email.ToLower().Contains(email.ToLower())
+                                    )
+                                    .AsNoTracking()
+                                    .ToListAsync();
+
+            return allUsers;
         }
 
-        public Task<List<Usuario>> GetListNome(string nome)
+        public async Task<List<Usuario>> GetListNome(string nome)
         {
-            throw new System.NotImplementedException();
+            var allUsers = await _contexto.Usuarios
+                                   .Where
+                                   (
+                                        x =>
+                                            x.Nome.ToLower().Contains(nome.ToLower())
+                                    )
+                                    .AsNoTracking()
+                                    .ToListAsync();
+
+            return allUsers;
         }
     }
 }

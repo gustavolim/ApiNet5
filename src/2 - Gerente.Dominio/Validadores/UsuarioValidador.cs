@@ -13,45 +13,45 @@ namespace Gerente.Dominio.Validadores
         {
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage("Não pode ser vazia.")
+                .WithMessage(" Não pode ser vazia.")
 
                 .NotNull()
-                .WithMessage("Não pode ser Nula.");
+                .WithMessage(" Não pode ser Nula.");
 
             RuleFor(x => x.Nome)
                 .NotEmpty()
-                .WithMessage("O nome não pode ser vazio.")
+                .WithMessage(" O nome não pode ser vazio.")
 
                 .NotNull()
-                .WithMessage("O nome não pode ser Nulo.")
+                .WithMessage(" O nome não pode ser Nulo.")
 
                 .MinimumLength(3)
-                .WithMessage("O nome tem que ter no mínimo 3 ctrs.")
+                .WithMessage(" O nome tem que ter no mínimo 3 ctrs.")
 
-                .MinimumLength(30)
-                .WithMessage("O nome tem que ter no máximo 30 ctrs.");
+                .MaximumLength(30)
+                .WithMessage(" O nome tem que ter no máximo 30 ctrs.");
 
             RuleFor(x => x.Senha)
                 .NotEmpty()
-                .WithMessage("Não pode ser vazia.")
+                .WithMessage(" Não pode ser vazia.")
                 .NotNull()
-                .WithMessage("Não pode ser Nula.");
+                .WithMessage(" Não pode ser Nula.");
 
             RuleFor(x => x.Email)
                 .NotEmpty()
-                .WithMessage("O email não pode ser vazio.")
+                .WithMessage(" O email não pode ser vazio.")
 
                 .NotNull()
-                .WithMessage("O email não pode ser Nulo.")
+                .WithMessage(" O email não pode ser Nulo.")
 
                 .MinimumLength(10)
-                .WithMessage("O email tem que ter no mínimo 3 ctrs.")
+                .WithMessage(" O email tem que ter no mínimo 10 ctrs.")
 
-                .MinimumLength(180)
-                .WithMessage("O email tem que ter no máximo 30 ctrs.")
+                .MaximumLength(180)
+                .WithMessage(" O email tem que ter no máximo 180 ctrs.")
 
                 .EmailAddress()
-                .WithMessage("Email inválido");
+                .WithMessage(" Email inválido");
         }
     }
 }

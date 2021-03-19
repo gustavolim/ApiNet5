@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K0Vmq+u7YkJZ9Gb7OFr/t+x/4e/8crYeAd+J+Dxur/dli9g3U0Y3Wh+TE8HaOxRspimVJIYNGi4W3WktEoYtcQ==",
+  "dgSpecHash": "QYN77HhmMtpfWwiKi4fZpBkw4xijPdB72rSH7AkQ48w5SKKXzJj7ChQZsLtC6qYPNHDGlDjizmTE3HmwdOd2Bw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\Gerente.Dominio\\Gerente.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\2 - Gerente.Dominio\\Gerente.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\60003520\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512"
   ],

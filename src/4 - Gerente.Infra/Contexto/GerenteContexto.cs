@@ -14,6 +14,10 @@ namespace Gerente.Infra.Contexto
         {
         }
 
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        // {
+        //     optionsBuilder.UseSqlServer(@"server=.;database=USUARIOGERENTEAPI;trusted_connection=true;");
+        // }        
         public virtual DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)

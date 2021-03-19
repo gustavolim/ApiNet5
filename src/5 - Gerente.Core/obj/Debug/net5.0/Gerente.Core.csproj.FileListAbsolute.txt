@@ -1,0 +1,12 @@
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\bin\Debug\net5.0\Gerente.Core.deps.json
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\bin\Debug\net5.0\Gerente.Core.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\bin\Debug\net5.0\ref\Gerente.Core.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\bin\Debug\net5.0\Gerente.Core.pdb
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.AssemblyInfoInputs.cache
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.AssemblyInfo.cs
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.csproj.CoreCompileInputs.cache
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\ref\Gerente.Core.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.pdb
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\5 - Gerente.Core\obj\Debug\net5.0\Gerente.Core.csprojAssemblyReference.cache

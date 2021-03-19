@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pp0RxFVfAC6PYe8nIina+q01Yni/fHtai4J7CBYrIRaodRKQeWn81BJrlrSVoh/gNL4oxR3WJeX3snBiQY3U6g==",
+  "dgSpecHash": "l5CXTCsvtYA8AdbHDm6be5ewTjvbQbNnT9h/fZDn+vy7N4WX8XY78FD9szPNBHZXvFifrzhOzh3SvmsegalwFw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\4 - Gerente.Infra\\Gerente.Infra.csproj",
+  "projectFilePath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\4 - Gerente.Infra\\Gerente.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\60003520\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\60003520\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

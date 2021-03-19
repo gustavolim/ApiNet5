@@ -10,6 +10,16 @@
         "runtime": {
           "lib/net5.0/FluentValidation.dll": {}
         }
+      },
+      "Gerente.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Gerente.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gerente.Core.dll": {}
+        }
       }
     }
   },
@@ -31,11 +41,17 @@
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml"
       ]
+    },
+    "Gerente.Core/1.0.0": {
+      "type": "project",
+      "path": "../5 - Gerente.Core/Gerente.Core.csproj",
+      "msbuildProject": "../5 - Gerente.Core/Gerente.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "fluentvalidation >= 9.5.1"
+      "FluentValidation >= 9.5.1",
+      "Gerente.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -45,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\Gerente.Dominio\\Gerente.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\2 - Gerente.Dominio\\Gerente.Dominio.csproj",
       "projectName": "Gerente.Dominio",
-      "projectPath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\Gerente.Dominio\\Gerente.Dominio.csproj",
+      "projectPath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\2 - Gerente.Dominio\\Gerente.Dominio.csproj",
       "packagesPath": "C:\\Users\\60003520\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\Gerente.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\2 - Gerente.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -69,7 +85,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\5 - Gerente.Core\\Gerente.Core.csproj": {
+              "projectPath": "C:\\Users\\60003520\\Documents\\Estudos\\ApiNet5\\src\\5 - Gerente.Core\\Gerente.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -82,7 +102,7 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "fluentvalidation": {
+          "FluentValidation": {
             "target": "Package",
             "version": "[9.5.1, )"
           }

@@ -10,3 +10,18 @@ C:\Users\60003520\Documents\Estudos\ApiNet5\src\Gerente.Dominio\obj\Debug\net5.0
 C:\Users\60003520\Documents\Estudos\ApiNet5\src\Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.dll
 C:\Users\60003520\Documents\Estudos\ApiNet5\src\Gerente.Dominio\obj\Debug\net5.0\ref\Gerente.Dominio.dll
 C:\Users\60003520\Documents\Estudos\ApiNet5\src\Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.pdb
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\Gerente.Dominio.deps.json
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\Gerente.Dominio.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\ref\Gerente.Dominio.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\Gerente.Dominio.pdb
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\Gerente.Core.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\bin\Debug\net5.0\Gerente.Core.pdb
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.csprojAssemblyReference.cache
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.AssemblyInfoInputs.cache
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.AssemblyInfo.cs
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.csproj.CopyComplete
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\ref\Gerente.Dominio.dll
+C:\Users\60003520\Documents\Estudos\ApiNet5\src\2 - Gerente.Dominio\obj\Debug\net5.0\Gerente.Dominio.pdb

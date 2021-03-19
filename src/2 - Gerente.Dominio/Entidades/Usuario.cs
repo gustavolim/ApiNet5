@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Gerente.Core.Excecoes;
 using Gerente.Dominio.Validadores;
 
 namespace Gerente.Dominio.Entidades
@@ -54,7 +55,8 @@ namespace Gerente.Dominio.Entidades
                     _erros.Add(erro.ErrorMessage);
                 }
 
-                throw new Exception("Campos inválidos" + _erros[0]);
+                //throw new Exception("Campos inválidos" + _erros[0]);
+                throw new ExecoesDominio("Campos inválidos" + _erros);
             }
 
             return true;
